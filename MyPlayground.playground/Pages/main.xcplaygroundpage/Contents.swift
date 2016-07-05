@@ -17,6 +17,9 @@
 // write your code here
 
 
+var totalBalance: Int = 100000000000
+
+
 
 
 /*: question2
@@ -25,14 +28,14 @@
 // write your code here
 
 
-
+var puppyName = "Bella"
 
 /*: question3
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
 
-
+print(puppyName)
 
 
 /*: question4
@@ -40,7 +43,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(puppyName) and she's awesome!")
 
 
 /*: question5
@@ -48,6 +51,7 @@
 */
 // write your code here
 
+print("I have $\(totalBalance) in my bank account")
 
 
 
@@ -56,7 +60,8 @@
 */
 // write your code here
 
-
+totalBalance = totalBalance + 100
+ print("I now have $\(totalBalance). Get on my level.")
 
 
 /*: question7
@@ -64,7 +69,9 @@
 */
 // write your code here
 
+puppyName = "Leo"
 
+print("My puppy's new name is \(puppyName)")
 
 
 //: [Solution](solution)
